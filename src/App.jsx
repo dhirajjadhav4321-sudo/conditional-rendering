@@ -7,7 +7,7 @@ const App = () => {
   const [islogin,setlogin]=useState(false)
   return(
     <div>
-      {islogin &&<Logout />}
+     this is the logical and {islogin &&<Logout />}
     </div>
   )
 
